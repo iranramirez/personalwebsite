@@ -1,18 +1,56 @@
 import React from 'react';
-import {BrowserRouter as Router, Switch, Link} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import '../Styling.css'
 
 
 function Nav() {
 
+    const navText = {
+        color: 'white',
+        textDecoration: 'none', 
+        borderStyle:'',
+        borderColor: ''
+      }
+
     return(
         <div>
             <nav>    
                 <ul className="nav-links">
-                    <li>About Me</li>
-                    <li>Resume</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <Link 
+                        style={navText}
+                        to="/about"
+                    >
+                        <li>Bio</li>
+                    </Link>
+                    <Link style={navText}>
+                        <li>Resume</li>
+                    </Link>
+                    <Link 
+                        style={navText} 
+                        to=""
+                    >
+                        <li>
+                            <div className="circle-logo">
+                                <img 
+                                    src={require("./images/titleLogo.png")}
+                                    className="logo"
+                                    alt="Initials Logo"
+                                />
+                            </div>
+                        </li>
+                    </Link>
+                    <Link 
+                        style={navText} 
+                        to="/projects"
+                    >
+                        <li>Projects</li>
+                    </Link>
+                    <Link 
+                        style={navText} 
+                        to="/contact"
+                    >
+                        <li>Contact</li>
+                    </Link>
                 </ul>
             </nav>     
         </div>
