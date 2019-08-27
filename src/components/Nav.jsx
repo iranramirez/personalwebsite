@@ -52,10 +52,8 @@ function Nav() {
                         <li>Contact</li>
                     </Link>
                 </ul>
-            </nav>     
+            </nav>    
         </div>
     )
-
 }
-
 export default Nav

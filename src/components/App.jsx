@@ -5,8 +5,7 @@ import Home from './Home';
 import About from './About';
 import Projects from './Projects';
 import Contact from './Contact';
-
-
+import Background from './Background';
 
 
 function App() {
@@ -14,6 +13,7 @@ function App() {
   return (
     <Router>
       <Nav />
+      <Background />
       <div>
         <Switch>
           <Route path="/" exact component={Home}/>
