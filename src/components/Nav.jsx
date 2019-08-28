@@ -1,28 +1,29 @@
-import React from 'react';
+import React from 'react'
 import {Link} from 'react-router-dom'
 import '../Styling.css'
 
-
-function Nav() {
-
+const Nav = () => {
     const navText = {
         color: 'white',
         textDecoration: 'none', 
         borderStyle:'',
         borderColor: ''
-      }
+    }
 
-    return(
-        <div>
+    return (
+        <div className="NavBar">
             <nav>    
                 <ul className="nav-links">
                     <Link 
                         style={navText}
                         to="/about"
                     >
-                        <li>Bio</li>
+                        <li>About</li>
                     </Link>
-                    <Link style={navText}>
+                    <Link
+                        style={navText}
+                        to="/resume"
+                    >
                         <li>Resume</li>
                     </Link>
                     <Link 
@@ -52,7 +53,7 @@ function Nav() {
                         <li>Contact</li>
                     </Link>
                 </ul>
-            </nav>    
+            </nav>
         </div>
     )
 }
