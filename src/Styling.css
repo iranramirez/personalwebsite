@@ -71,6 +71,11 @@ nav {
     transform: scale(1.1)
 }
 
+.project-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .cb-slideshow,
 .cb-slideshow:after {
     position: fixed;

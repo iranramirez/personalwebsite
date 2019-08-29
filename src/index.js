@@ -2,6 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App'
 import * as serviceWorker from './serviceWorker';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
