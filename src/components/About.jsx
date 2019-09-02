@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
 
     return (
-        <h1>About me</h1>
+        <h1 style={{position: "fixed"}}>About me</h1>
     )
 }
 

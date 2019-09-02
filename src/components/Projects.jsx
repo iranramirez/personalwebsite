@@ -10,7 +10,7 @@ const Projects = () => {
                 <Cell col={12}>
                     <div className="project-grid">
                         {/* Project 1 */ }
-                        <Card shadow={5} style={{width: '512px', margin: '50px auto'}}>
+                        <Card shadow={5} className="card-style">
                             <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -24,7 +24,7 @@ const Projects = () => {
                             </CardMenu>
                         </Card>
                         {/* Project 2 */ }
-                        <Card shadow={5} style={{width: '512px', margin: '50px auto'}}>
+                        <Card shadow={5} className="card-style">
                             <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Project #2</CardTitle>
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -38,7 +38,7 @@ const Projects = () => {
                             </CardMenu>
                         </Card>
                         {/* Project 3 */ }
-                        <Card shadow={5} style={{width: '512px', margin: '50px auto'}}>
+                        <Card shadow={5} className="card-style">
                             <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -52,7 +52,7 @@ const Projects = () => {
                             </CardMenu>
                         </Card>
                         {/* Project 4 */ }
-                        <Card shadow={5} style={{width: '512px', margin: '50px auto'}}>
+                        <Card shadow={5} className="card-style">
                             <CardTitle style={{color: '#fff', height: '176px', background: 'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'}}>Welcome</CardTitle>
                             <CardText>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
