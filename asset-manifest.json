@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.e9477777.chunk.css",
-    "main.js": "/static/js/main.fdf16aa0.chunk.js",
-    "main.js.map": "/static/js/main.fdf16aa0.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.0be9e7ee.js",
-    "runtime~main.js.map": "/static/js/runtime~main.0be9e7ee.js.map",
-    "static/css/2.60a6b8e0.chunk.css": "/static/css/2.60a6b8e0.chunk.css",
-    "static/js/2.566ec33d.chunk.js": "/static/js/2.566ec33d.chunk.js",
-    "static/js/2.566ec33d.chunk.js.map": "/static/js/2.566ec33d.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.8325f39fd0b5a6283cf73dd466625170.js": "/precache-manifest.8325f39fd0b5a6283cf73dd466625170.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.60a6b8e0.chunk.css.map": "/static/css/2.60a6b8e0.chunk.css.map",
-    "static/css/main.e9477777.chunk.css.map": "/static/css/main.e9477777.chunk.css.map",
-    "static/media/IranResumeTech(Fall 2019).pdf": "/static/media/IranResumeTech(Fall 2019).a30ee6aa.pdf",
-    "static/media/Styling.css": "/static/media/texasam_campus.52fce142.jpg",
-    "static/media/ringdayPhoto.jpg": "/static/media/ringdayPhoto.741396b8.jpg",
-    "static/media/titleLogo.png": "/static/media/titleLogo.620f7247.png"
+    "main.css": "/personalwebsite/static/css/main.62e02896.chunk.css",
+    "main.js": "/personalwebsite/static/js/main.83567c03.chunk.js",
+    "main.js.map": "/personalwebsite/static/js/main.83567c03.chunk.js.map",
+    "runtime~main.js": "/personalwebsite/static/js/runtime~main.8c7d4d2c.js",
+    "runtime~main.js.map": "/personalwebsite/static/js/runtime~main.8c7d4d2c.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/personalwebsite/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.566ec33d.chunk.js": "/personalwebsite/static/js/2.566ec33d.chunk.js",
+    "static/js/2.566ec33d.chunk.js.map": "/personalwebsite/static/js/2.566ec33d.chunk.js.map",
+    "index.html": "/personalwebsite/index.html",
+    "precache-manifest.a935aa54f89da740af79554bb6714bfc.js": "/personalwebsite/precache-manifest.a935aa54f89da740af79554bb6714bfc.js",
+    "service-worker.js": "/personalwebsite/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/personalwebsite/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.62e02896.chunk.css.map": "/personalwebsite/static/css/main.62e02896.chunk.css.map",
+    "static/media/IranResumeTech(Fall 2019).pdf": "/personalwebsite/static/media/IranResumeTech(Fall 2019).a30ee6aa.pdf",
+    "static/media/Styling.css": "/personalwebsite/static/media/texasam_campus.52fce142.jpg",
+    "static/media/ringdayPhoto.jpg": "/personalwebsite/static/media/ringdayPhoto.741396b8.jpg",
+    "static/media/titleLogo.png": "/personalwebsite/static/media/titleLogo.620f7247.png"
   }
 }
