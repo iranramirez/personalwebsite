@@ -5,110 +5,110 @@
 .name-svg path:nth-child(1) {
     stroke-dasharray: 63px;
     stroke-dashoffset: 63px;
-    animation: line-anim 2s ease forwards;
+    animation: line-anim 2.5s ease forwards;
 }
 
 .name-svg path:nth-child(2) {
     stroke-dasharray: 69px;
     stroke-dashoffset: 69px;
-    animation: line-anim 2s ease forwards 0.3s; 
+    animation: line-anim 2.5s ease forwards 0.3s; 
 }
 
 .name-svg path:nth-child(3) {
     stroke-dasharray: 141px;
     stroke-dashoffset: 141px;
-    animation: line-anim 2s ease forwards 0.6s;
+    animation: line-anim 2.5s ease forwards 0.6s;
 }
 
 .name-svg path:nth-child(4) {
     stroke-dasharray: 108px;
     stroke-dashoffset: 108px;
-    animation: line-anim 2s ease forwards 0.9s;
+    animation: line-anim 2.5s ease forwards 0.9s;
 }
 
 .name-svg path:nth-child(5) {
     stroke-dasharray: 119px;
     stroke-dashoffset: 119px;
-    animation: line-anim 2s ease forwards;
+    animation: line-anim 2.5s ease forwards;
 }
 
 .name-svg path:nth-child(6) {
     stroke-dasharray: 108px;
     stroke-dashoffset: 108px;
-    animation: line-anim 2s ease forwards 0.3s;
+    animation: line-anim 2.5s ease forwards 0.3s;
 }
 
 .name-svg path:nth-child(7) {
     stroke-dasharray: 81px;
     stroke-dashoffset: 81px;
-    animation: line-anim 2s ease forwards 0.6s;
+    animation: line-anim 2.5s ease forwards 0.6s;
 }
 
 .name-svg path:nth-child(8) {
     stroke-dasharray: 96px;
     stroke-dashoffset: 96px;
-    animation: line-anim 2s ease forwards 0.9s;
+    animation: line-anim 2.5s ease forwards 0.9s;
 }
 
 .name-svg path:nth-child(9) {
     stroke-dasharray: 108px;
     stroke-dashoffset: 108px;
-    animation: line-anim 2s ease forwards 1.2s;
+    animation: line-anim 2.5s ease forwards 1.2s;
 }
 
 .name-svg path:nth-child(10) {
     stroke-dasharray: 75px;
     stroke-dashoffset: 75px;
-    animation: line-anim 2s ease forwards 1.5s;
+    animation: line-anim 2.5s ease forwards 1.5s;
 }
 
 .name-svg path:nth-child(11) {
     stroke-dasharray: 96px;
     stroke-dashoffset: 96px;
-    animation: line-anim 2s ease forwards 1.8s;
+    animation: line-anim 2.5s ease forwards 1.8s;
 }
 
 .name-svg path:nth-child(12) {
     stroke-dasharray: 131px;
     stroke-dashoffset: 131px;
-    animation: line-anim 2s ease forwards;
+    animation: line-anim 2.5s ease forwards;
 }
 
 .name-svg path:nth-child(13) {
     stroke-dasharray: 113px;
     stroke-dashoffset: 113px;
-    animation: line-anim 2s ease forwards 0.3s;
+    animation: line-anim 2.5s ease forwards 0.3s;
 }
 
 .name-svg path:nth-child(14) {
     stroke-dasharray: 165px;
     stroke-dashoffset: 165px;
-    animation: line-anim 2s ease forwards 0.6s;
+    animation: line-anim 2.5s ease forwards 0.6s;
 }
 
 
 .name-svg path:nth-child(15) {
     stroke-dasharray: 75px;
     stroke-dashoffset: 75px;
-    animation: line-anim 2s ease forwards 0.9s;
+    animation: line-anim 2.5s ease forwards 0.9s;
 }
 
 .name-svg path:nth-child(16) {
     stroke-dasharray: 69px;
     stroke-dashoffset: 69px;
-    animation: line-anim 2s ease forwards 1.2s;
+    animation: line-anim 2.5s ease forwards 1.2s;
 }
 
 .name-svg path:nth-child(17) {
     stroke-dasharray: 113px;
     stroke-dashoffset: 113px;
-    animation: line-anim 2s ease forwards 1.5s;
+    animation: line-anim 2.5s ease forwards 1.5s;
 }
 
 .name-svg path:nth-child(18) {
     stroke-dasharray: 95px;
     stroke-dashoffset: 95px;
-    animation: line-anim 2s ease forwards 1.8s;
+    animation: line-anim 2.5s ease forwards 1.8s;
 }
 
 @keyframes line-anim {
@@ -125,6 +125,13 @@
     to{
         fill: black;
     }
+}
+
+.typewriter {
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 40px;
+    font-family: 'Courier New';
 }
 
 .photo-container {
@@ -191,7 +198,7 @@ svg {
 }
 
 .social-links {
-    margin: 60px 0px 0px 0px;
+    margin: 10px 0px 0px 0px;
     width: 80%;
     display: flex;
     justify-content: space-around;
@@ -205,7 +212,7 @@ svg {
 
 .card-style {
         width: 350px;
-        margin: 250px auto 50px 50px;
+        margin: 220px auto 50px auto;
 }
 
 .project-grid {
@@ -217,11 +224,42 @@ svg {
 .pdf-viewport {
     position: fixed;
     display: block;
-    margin-top: 10%;
-    margin-left: 25%;
+    margin-top: 8%;
+    margin-left: 3%;
     margin-right: auto;
     width: 50%;
 }
+
+.relevant-courses {
+    position: fixed;
+    border-style: solid;
+    border-color: black;
+    height: 83%;
+    width: 40%;
+    margin-top: 7%;
+    margin-left: 56%;
+    overflow: scroll;
+}
+
+.relevant-courses a { 
+    color: inherit;
+    font-style: italic;
+    font-weight: bold; 
+}
+
+.relevant-courses h3 {
+    font-size: 25px;
+    margin-left: 36%;
+    font-weight: bolder;
+}
+
+
+.relevant-courses li{
+    display: block;
+    text-align: center;
+    margin-right: 50px;
+}
+
 
 .cb-slideshow,
 .cb-slideshow:after {
@@ -299,11 +337,20 @@ svg {
 @media only screen and (min-width: 1000px) and (max-width: 1600px) {
 
     .photo-container {
-        margin-top: 12%;
+        margin-top: 9%;
     }
 
     .card-style {
         margin-top: 10%;
+    }
+
+    .relevant-courses {
+        height: 75%;
+        margin-top: 120px;
+    }
+
+    .relevant-courses h3{
+        margin-left: 30%;
     }
 
 }
@@ -327,11 +374,11 @@ svg {
         width: 200px;
     }
 
-    /*.name-home {
-        font-size: 20px;
-        margin: auto;
-        font-weight: bold;
-    }*/
+    .typewriter {
+        font-size: 18px;
+        margin-top: 15px;
+        font-family: 'Courier New';
+    }
 
     .home-photo {
         margin-top: 20px;
@@ -346,11 +393,12 @@ svg {
     }
     
     .social-links {
-        margin: 30px 0px 0px -2px;
+        margin: 0px 0px 0px -2px;
         width: 70%;
     }
     .grow-icon {
         margin: 0px 12px;
+
     }
 
     .card-style {
@@ -365,8 +413,30 @@ svg {
 
     .pdf-viewport {
         height: 100px;
-        width: 200px;
-        margin: 200px 50% 0px 22%;
+        width: 150px;
+        margin: 150px 30% 0px;
+    }
+
+    .relevant-courses {
+        margin-top: 80%;
+        margin-left: 10%;
+        height: 40%;
+        width: 80%;
+        overflow: scroll;
+        border-radius: 20px;
+        padding: 0px;
+    }
+
+    .relevant-courses h3 {
+        font-size: 25px;
+        margin-left: 15%;
+    }
+
+
+    .relevant-courses li{
+        display: block;
+        text-align: center;
+        margin-right: 40px;
     }
 
 }
